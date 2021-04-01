@@ -1,0 +1,53 @@
+.conocimientos{
+    background:linear-gradient(60deg,rgb(255, 224, 253),#ffff);
+    width: 100%;
+}
+.containerConocimientos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.cardsConocimientos{
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.titleCards{
+    font-size: 20px;
+    font-weight: 900;
+}
+.fontSize{
+    font-size: 100px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.fa-html5{
+    color: #e54d26;
+}
+.fa-css3-alt{
+    color: #3d8fc6;
+}
+.fa-sass{
+    color:#c69;
+}
+.fa-js{
+    color: #f0db4f;
+}
+.fa-react{
+    color:#61dafb;
+}
+.fa-git-alt{
+    color:#f34f29;
+}

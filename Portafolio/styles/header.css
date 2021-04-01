@@ -1,0 +1,27 @@
+.containerNav{
+    background-color: #fff;
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    align-items: center;
+    color: #ed64bd;;
+    display: flex;
+    font-size: 20px;
+    height: 50px;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 5px;
+}
+.contacto{
+    align-items: center;
+    color: #fff;
+    background-color: #ed64bd;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}

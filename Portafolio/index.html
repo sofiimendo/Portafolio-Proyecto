@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofia Mendoza</title>
+    <!--Link Css-->
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hola.css">
     <link rel="stylesheet" href="styles/conocimientos.css">
@@ -13,6 +15,7 @@
     <link rel="stylesheet" href="styles/proyectos.css">
     <link rel="stylesheet" href="styles/contacto.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <!--Link FontAwesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
         integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
     </script>
@@ -22,75 +25,76 @@
     <!--------------------------------Header---------------------------------------------->
     <header>
         <nav class="containerNav">
-            <ul>
+            <ul class="nav">
                 <li class="nav"><a class="nav" href="#Hola">Hola</a></li>
                 <li class="nav"><a class="nav" href="#Conocimientos">Conocimientos</a></li>
                 <li class="nav"><a class="nav" href="#Proyectos">Proyectos</a></li>
-                <li class="nav"><a class="nav" href="#Contactos">Contacto</a></li>
+                <li class="nav"><a class="nav contacto" href="#Contactos">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!--------------------------------Hola---------------------------------------------->
-        <section class="Hola">
+        <section class="section" id="Hola">
             <div class="containerHola">
-                <div class="imagenHola">
-                    <img src="./assets/images/undraw_proud_coder_7ain.svg" alt="imagenHola">
-                </div>
                 <div class="textoHola">
-                    <h2>
-                        ¡Hola! Soy
-                        <br>
-                        <span>Sofia Mendoza</span>
-                    </h2>
-                    <h3>Desarrolladora, Pastelera y fanatica de Boca</h3>
-                </div>
-                <div class="botonLoQueHago">
+                    <p class="presentacion">Hola! Soy</p>
+                    <h1 class="name">Sofia Mendoza</h1>
+                    <p class="descripcion">Baby Front end Developer👶🏼, mamá de Chicha 🐶</p>
+                    <p class="descripcion Boca">y fanática de Boca 💙💛💙</p>
                     <a class="botonLoQueHago" href="#Proyectos">Lo que hago</a>
+                </div>
+                <div class="imagenHola">
+                    <img class="imagenHola" src="./assets/images/undraw_proud_coder_7ain.svg" alt="imagenHola">
                 </div>
             </div>
         </section>
         <!--------------------------------Mis conocimientos---------------------------------------------->
-        <section class="MisConocimientos">
+        <section class="section conocimientos" id="Conocimientos">
             <div class="containerConocimientos">
-                <h2>Mis conocimientos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius molestiae earum porro eligendi facere
-                    illum reiciendis. Rerum asperiores cupiditate distinctio qui facere, sequi iusto magni aspernatur,
-                    ut harum error nihil!
-                    Nobis iusto voluptas sapiente totam nulla quaerat fugit corrupti explicabo inventore ullam excepturi
-                    fugiat delectus laborum consectetur eius ipsum, harum voluptatum quam quibusdam neque animi quasi
-                    laudantium error commodi. Veritatis!
-                    Consequatur veniam, dicta aperiam nam repudiandae laborum excepturi natus quidem fugiat, impedit
-                    laudantium amet et? Iusto numquam et quibusdam earum. Magni aut necessitatibus eveniet odit numquam
-                    possimus, sunt soluta rerum.</p>
-            </div>
-            <div class="Cards">
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
+                <div class="textoConocimientos">
+                    <h2>Mis conocimientos</h2>
+                    <p>Estos son los conocimientos que fui adquiriendo a través de mi experiencia en Ada:</p>
+                </div>
+                <div class="cards">
+                    <div class="cardsConocimientos">
+                            <i class="fontSize fab fa-html5"></i>
+                            <p class="titleCards">HTML 5</p>
+                    </div>
+                    <div class="cardsConocimientos">
+                        <i class="fontSize fab fa-css3-alt"></i>
+                        <p class="titleCards">CSS 3</p>
+                    </div>
+                    <div class="cardsConocimientos">
+                        <i class="fontSize fab fa-sass"></i>
+                        <p class="titleCards">Sass</p>
+                    </div>
+                    <div class="cardsConocimientos">
+                        <i class="fontSize fab fa-js"></i>
+                        <p class="titleCards">JavaScript</p>
+                    </div>
+                    <div class="cardsConocimientos">
+                        <i class="fontSize fab fa-react"></i>
+                        <p class="titleCards">React</p>
+                    </div>
+                    <div class="cardsConocimientos">
+                        <i class="fontSize fab fa-git-alt"></i>
+                        <p class="titleCards">GIT</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-----------------------------------Quote--------------------------------------------------------->
-        <section class="Quote">
+        <section class="section quote">
             <div class="containerQuote">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quam ut quo officia
-                    accusantium dolorum reprehenderit aliquam sint vitae voluptatibus, iste in eligendi illum nisi
-                    commodi repudiandae perspiciatis accusamus!
-                    Labore nostrum rem commodi, quos repellendus sapiente accusantium nam laudantium odio corporis!
-                    Inventore neque natus, eligendi praesentium provident placeat ipsa deserunt, impedit explicabo
-                    omnis, veritatis voluptates earum dolore voluptate libero.
-                    Nesciunt, dolores cumque laborum vel eveniet suscipit neque esse. Molestias, ipsam excepturi omnis
-                    tenetur non eum nostrum vitae, minima itaque quas recusandae similique? Neque dolor iste laboriosam
-                    ipsam ad provident.</p>
-                <h2>Someone</h2>
+                <i class="fas fa-quote-right"></i>
+                <p class="quoteText">"¿Internet? ¿Todavía anda eso por ahí?"</p>
+                <h2> Homero Simpson</h2>
             </div>
         </section>
         <!-----------------------------------Mis proyectos--------------------------------------------------------->
-        <section class="MisConocimientos">
-            <div class="containerConocimientos">
+        <section class="section" id="Proyectos">
+            <div class="containerProyectos">
                 <h2>Mis Proyectos</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum praesentium nostrum sequi, quidem quas
                     est
@@ -114,7 +118,7 @@
             </div>
         </section>
         <!-----------------------------------Contacto--------------------------------------------------------->
-        <section class="contacto">
+        <section class="section" id="Contactos">
             <div class="containerContacto">
                 <div class="contactame">
                     <h2>Contactame</h2>

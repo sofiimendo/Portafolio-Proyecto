@@ -1,0 +1,14 @@
+.quote{
+    background-color:#ed64bd ;
+}
+.containerQuote{
+    color:#ffff;
+}
+.fa-quote-right{
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.quoteText{
+    margin: 30px;
+    font-weight: 700;
+}
