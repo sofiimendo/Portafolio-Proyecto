@@ -7,13 +7,16 @@
 }
 .nav{
     align-items: center;
-    color: #ed64bd;;
     display: flex;
     font-size: 20px;
-    height: 50px;
+    height: 30px;
     justify-content: flex-end;
     list-style: none;
     margin: 5px;
+    margin-right: 35px;
+}
+.navColor{
+    color: #ed64bd;
 }
 .contacto{
     align-items: center;

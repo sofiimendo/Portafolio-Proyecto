@@ -1,21 +1,4 @@
-.conocimientos{
-    background:linear-gradient(60deg,rgb(255, 224, 253),#ffff);
-    width: 100%;
-}
-.containerConocimientos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.cards{
-    max-width: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-.cardsConocimientos{
+.cardsContent{
     background-color: #fff;
     border: 1px solid #dddfe5;
     border-radius: 8px;
@@ -23,6 +6,9 @@
     margin: 20px;
     margin-top: 50px;
     padding: 30px;
+}
+.maxWidth{
+    max-width: 1100px;
 }
 .titleCards{
     font-size: 20px;

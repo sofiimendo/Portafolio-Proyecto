@@ -26,10 +26,10 @@
     <header>
         <nav class="containerNav">
             <ul class="nav">
-                <li class="nav"><a class="nav" href="#Hola">Hola</a></li>
-                <li class="nav"><a class="nav" href="#Conocimientos">Conocimientos</a></li>
-                <li class="nav"><a class="nav" href="#Proyectos">Proyectos</a></li>
-                <li class="nav"><a class="nav contacto" href="#Contactos">Contacto</a></li>
+                <li class="nav"><a class="nav navColor" href="#Hola">Hola</a></li>
+                <li class="nav"><a class="nav navColor" href="#Conocimientos">Conocimientos</a></li>
+                <li class="nav"><a class="nav navColor" href="#Proyectos">Proyectos</a></li>
+                <li class="nav"><a class="nav navColor contacto" href="#Contactos">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -45,39 +45,39 @@
                     <a class="botonLoQueHago" href="#Proyectos">Lo que hago</a>
                 </div>
                 <div class="imagenHola">
-                    <img class="imagenHola" src="./assets/images/undraw_proud_coder_7ain.svg" alt="imagenHola">
+                    <img class="imagenHola" src="./assets/images/imgHola.svg" alt="imagenHola">
                 </div>
             </div>
         </section>
         <!--------------------------------Mis conocimientos---------------------------------------------->
-        <section class="section conocimientos" id="Conocimientos">
+        <section class="section background" id="Conocimientos">
             <div class="containerConocimientos">
                 <div class="textoConocimientos">
                     <h2>Mis conocimientos</h2>
                     <p>Estos son los conocimientos que fui adquiriendo a través de mi experiencia en Ada:</p>
                 </div>
-                <div class="cards">
-                    <div class="cardsConocimientos">
-                            <i class="fontSize fab fa-html5"></i>
-                            <p class="titleCards">HTML 5</p>
+                <div class="cards maxWidth">
+                    <div class="cardsContent">
+                        <i class="fontSize fab fa-html5"></i>
+                        <p class="titleCards">HTML 5</p>
                     </div>
-                    <div class="cardsConocimientos">
+                    <div class="cardsContent">
                         <i class="fontSize fab fa-css3-alt"></i>
                         <p class="titleCards">CSS 3</p>
                     </div>
-                    <div class="cardsConocimientos">
+                    <div class="cardsContent">
                         <i class="fontSize fab fa-sass"></i>
                         <p class="titleCards">Sass</p>
                     </div>
-                    <div class="cardsConocimientos">
+                    <div class="cardsContent">
                         <i class="fontSize fab fa-js"></i>
                         <p class="titleCards">JavaScript</p>
                     </div>
-                    <div class="cardsConocimientos">
+                    <div class="cardsContent">
                         <i class="fontSize fab fa-react"></i>
                         <p class="titleCards">React</p>
                     </div>
-                    <div class="cardsConocimientos">
+                    <div class="cardsContent">
                         <i class="fontSize fab fa-git-alt"></i>
                         <p class="titleCards">GIT</p>
                     </div>
@@ -85,7 +85,7 @@
             </div>
         </section>
         <!-----------------------------------Quote--------------------------------------------------------->
-        <section class="section quote">
+        <section class="section pinkBackground">
             <div class="containerQuote">
                 <i class="fas fa-quote-right"></i>
                 <p class="quoteText">"¿Internet? ¿Todavía anda eso por ahí?"</p>
@@ -94,52 +94,129 @@
         </section>
         <!-----------------------------------Mis proyectos--------------------------------------------------------->
         <section class="section" id="Proyectos">
-            <div class="containerProyectos">
+            <div class="container">
                 <h2>Mis Proyectos</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum praesentium nostrum sequi, quidem quas
-                    est
-                    soluta. Enim facilis vel aut provident, repudiandae vitae. Ea, libero nostrum obcaecati sequi earum
-                    sapiente.
-                    Laboriosam quidem omnis maxime eos exercitationem explicabo voluptatum unde atque corrupti fuga
-                    magni
-                    quis deserunt incidunt tempora iure, libero, iusto, ducimus optio totam consequatur illum! Veniam
-                    incidunt soluta quis ad.
-                    Commodi officia assumenda, vitae facere, quibusdam et autem perspiciatis distinctio cumque expedita
-                    explicabo, excepturi ratione quae architecto nostrum quia rem asperiores voluptatum quis.
-                    Consequatur
-                    sint incidunt pariatur, nesciunt quas expedita.</p>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
-                <div class="cardsConocimientos"></div>
+                <p>Aca te muestro los proyectos que fuimos realizando a lo largo de la cursada:</p>
+                <div class="cards misProyectos">
+                    <div class="cards cardsProyect">
+                        <a href="#Hola">
+                            <img class="imgProyectos" src="./assets/images/portfolio.png" alt="portfolio">
+                            <h4 class="titleProyectos">Portfolio</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/creadorMemes.svg" alt="creadorMemes">
+                            <h4 class="titleProyectos">Generador de Memes</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/match.svg" alt="Match">
+                            <h4 class="titleProyectos">Match 3</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/controladorGastos.svg" alt="ControladorGastos">
+                            <h4 class="titleProyectos">Controlador de Gastos</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/administradorReuniones.svg"
+                                alt="administradorReuniones">
+                            <h4 class="titleProyectos">Administrador de Reuniones</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/todoApp.svg" alt="todoApp">
+                            <h4 class="titleProyectos">To do App</h3>
+                        </a>
+                    </div>
+                    <div class="cards cardsProyect">
+                        <a href="#">
+                            <img class="imgProyectos" src="./assets/images/movieSearch.svg" alt="movieSearch">
+                            <h4 class="titleProyectos">Buscador de peliculas</h3>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-----------------------------------Contacto--------------------------------------------------------->
-        <section class="section" id="Contactos">
-            <div class="containerContacto">
+        <section class="background containerformulario" id="Contactos">
+            <section class="contactameescribime">
+
                 <div class="contactame">
-                    <h2>Contactame</h2>
-                    <a href="">@sofiimendo</a>
-                    <a href="">SofiiMendo</a>
-                    <a href="">Sofia Mendoza</a>
-                    <a href="">sofimmendoza@gmail.com</a>
+                    <div>
+                        <h2 class="title">Contactame</h2>
+                        <p class="fontsize-contactame">Aca encontrarás los links hacia mis redes para que puedas contactarme:</p>
+                    </div>
+                    <div class="contactactmeicons">
+                        <ul class="ul-iconscontactme">
+                            <li class="li-icon">
+                                <i class="logosize fab fa-twitter"></i>
+                            </li>
+                            <li class="li-icon">
+                                <i class="logosize fab fa-discord"></i>
+                            </li>
+                            <li class="li-icon">
+                                <i class="logosize fab fa-linkedin-in"></i>
+                            </li>
+                            <li class="li-icon">
+                                <i class="logosize far fa-envelope"></i>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-                <div class="formulario">
-                    <h2>Escribime</h2>
-                </div>
+
+                <div class="escribime">
+                    <h2 class="title">Escribime</h2>
+
+                    <form class="fontsize-contactame">
+                        <div class="nombreyapellido">
+                            <div>
+                                <label for="idNombre">Nombre*:</label>
+                                <br>
+                                <input class="inputsize" type="text" id="idNombre" placeholder="Ingresa tu nombre">
+                            </div>
+                            <div>
+                                <label for="idApellido">Apellido*:</label>
+                                <br>
+                                <input type="text" id="idApellido" placeholder="Ingresa tu apellido">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="idMail">Correo: </label>
+                            <input type="email" id="idMail" maxlength="30" size="20" placeholder="Ingresá tu mail" />
+                        </div>
+                        <div>
+                            <label for="idComentarios">Mensaje*: </label>
+                            <br />
+                            <textarea id="idComentarios" cols="50" rows="15" maxlength="1000"
+                                placeholder="Escriba un mensaje aqui">
+                                </textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="botonenviar">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+            </section>
+
             </div>
         </section>
         <!-----------------------------------Footer--------------------------------------------------------->
-        <footer>
+        <footer class="pinkBackground">
             <div class="navFooter">
-                <ul>
-                    <li class="nav"><a class="nav" href="#Hola">Hola</a></li>
-                    <li class="nav"><a class="nav" href="#Conocimientos">Conocimientos</a></li>
-                    <li class="nav"><a class="nav" href="#Proyectos">Proyectos</a></li>
-                    <li class="nav"><a class="nav" href="#Contactos">Contacto</a></li>
+                <ul class="nav">
+                    <li class="nav"><a class="nav navFooter" href="#Hola">Hola</a></li>
+                    <li class="nav"><a class="nav navFooter" href="#Conocimientos">Conocimientos</a></li>
+                    <li class="nav"><a class="nav navFooter" href="#Proyectos">Proyectos</a></li>
+                    <li class="nav"><a class="nav navFooter" href="#Contactos">Contacto</a></li>
                 </ul>
             </div>
             <div class="iconos">
