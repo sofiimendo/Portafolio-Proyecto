@@ -49,3 +49,7 @@
     border-radius: 50px;
     padding: 15px 50px;
 }
+.botonLoQueHago:hover{
+    background-color: #f42aad;
+    transition: 0.7s;
+}

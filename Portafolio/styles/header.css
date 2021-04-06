@@ -4,6 +4,7 @@
     padding: 25px;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 .nav{
     align-items: center;
@@ -18,6 +19,16 @@
 .navColor{
     color: #ed64bd;
 }
+.navColor:hover{
+    color: #ffc8fb;
+}
+.navColor:active{
+    background-color: #ffff;
+    box-shadow: 0 0 20px 0 #ed64bd;
+    border-radius: 50px;
+    padding: 4%;
+
+}
 .contacto{
     align-items: center;
     color: #fff;
@@ -27,4 +38,9 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+}
+.contacto:hover{
+    background-color: #f42aad;
+    color: #ffff;
+    transition: 0.7s;
 }

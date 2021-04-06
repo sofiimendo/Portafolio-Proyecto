@@ -25,12 +25,14 @@ input {
     border-color: transparent;
     border-radius: 25px;
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
-    margin-left: 1%;
-    padding: 1%;
+    margin: 5%;
+    padding: 3%;
+
 }
 .section {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5%;
     text-align: center;
 }

@@ -8,14 +8,13 @@
     width: 100%;
 }
 .contactameEscribime {
+    background-color:rgb(255, 246, 254);
     border: 2px rgb(255, 224, 253) solid;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
 }
-.contactoForm {
-    background-color:rgb(255, 246, 254);
-    color: #3d3b47;
+.contactoForm{
     width: 50%;
     border-radius: 20px;
     padding: 5%;
@@ -40,57 +39,26 @@
     justify-content: flex-start;
     align-items: center;
 }
-.fontSize {
+.fontIcon {
     font-size: 30px;
     background-color: transparent;
     border-radius:100%;
     padding: 2%;
 }
-.fontSize:hover{
-    background-color:#ed64bd;
-    color: #ffc8fb;
-}
 .colorRedes{
     color: #ed64bd;
     margin: 3%;
 }
-.colorRedes:hover{
-    color: #ffc8fb;
-}
-.iconosLi:hover .fontSize{
+.fontIcon:hover{
     background-color:#ed64bd;
     color: #ffc8fb;
 }
+.colorRedes:hover{
+    color: #ffc8fb;
+}
+.iconosLi:hover .fontIcon{
+    background-color:#ed64bd;
+    color: #ffff;
+}
 /*Estilos Escribime*/
-.escribime {
-    background-color: rgb(116, 28, 94);
-    width: 50%;
-    padding: 5%;
-    border-radius: 20px;
-}
-.title {
-    background-color: darkred;
-    font-size: 40px;
-    font-weight: 1100px;
-    margin-bottom: 4%;
-}
-.nombreyapellido {
-    background-color: rgb(236, 192, 16);
-    display: flex;
-    justify-content:space-between
-    
-}
-.botonenviar {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 50px;
-    border-color: rebeccapurple 2px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 10%;
-}
+

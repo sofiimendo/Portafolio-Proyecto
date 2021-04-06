@@ -1,6 +1,7 @@
-footer{
+.footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     align-items: center;
 }
@@ -11,4 +12,27 @@ footer{
     font-size: 15px;
     justify-content: center;
     margin-bottom: 2%;
+}
+.ulIconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.medidasIconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 10%;
+    border-radius: 100%;
+    color: #ed64bd;
+    background-color: #ffc8fb;
+}
+.medidasIconos:hover{
+    background-color:#ed64bd;
+    color: #ffff;
+}
+.sizeIcons{
+    font-size: 30px;
 }

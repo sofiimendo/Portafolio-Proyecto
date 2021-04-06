@@ -9,7 +9,10 @@
     margin-top: 5%;
     padding: 5%;
 }
-
+.cardsContent:hover{
+    border: 1px solid #ed64bd;
+    box-shadow: 0 0 10px 0 #ed64bd;
+}
 .titleCards{
     font-size: 20px;
     font-weight: 900;

@@ -13,8 +13,6 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
-    padding: 5%;
-    margin-left: 7%;
 }
 .cardsProyect{
     background-color: #fff;
@@ -22,7 +20,10 @@
     border-radius: 8px;
     box-shadow: 0 0 2px 0 #ed64bd;
     width: 25%;
-    height: 30%;
     margin: 4%;
     padding: 2%;
+}
+.cardsProyect:hover{
+    border: 1px solid #ed64bd;
+    box-shadow: 0 0 10px 0 #ed64bd;
 }
