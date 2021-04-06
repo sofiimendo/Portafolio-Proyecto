@@ -26,10 +26,10 @@
     <header>
         <nav class="containerNav">
             <ul class="nav">
-                <li class="nav"><a class="nav navColor" href="#Hola">Hola</a></li>
-                <li class="nav"><a class="nav navColor" href="#Conocimientos">Conocimientos</a></li>
-                <li class="nav"><a class="nav navColor" href="#Proyectos">Proyectos</a></li>
-                <li class="nav"><a class="nav navColor contacto" href="#Contactos">Contacto</a></li>
+                <li class="nav"><a class="nav navColor" href="#Hola">HOLA</a></li>
+                <li class="nav"><a class="nav navColor" href="#Conocimientos">CONOCIMIENTOS</a></li>
+                <li class="nav"><a class="nav navColor" href="#Proyectos">PROYECTOS</a></li>
+                <li class="nav"><a class="nav navColor contacto" href="#Contactos">CONTACTOS</a></li>
             </ul>
         </nav>
     </header>
@@ -160,33 +160,41 @@
                 <div class="contactoForm">
                     <h2>Escribime</h2>
                     <form class="contactameForm">
-                        <div class="nombreApellido medidas">
-                            <div>
+                        <div class="nombreApellido">
+                            <div class="nombreForm">
                                 <label for="idNombre">Nombre*:</label>
                                 <br>
                                 <input class="inputsize" type="text" id="idNombre" placeholder="Ingresa tu nombre">
-                            </div>
-                            <di>
+                            </div> 
+                            <div class="nombreForm">                   
                                 <label for="idApellido">Apellido*:</label>
                                 <br>
                                 <input type="text" id="idApellido" placeholder="Ingresa tu apellido">
                             </div>
                         </div>
-                        <div class="correo">
-                            <label for="idMail">Email*: </label>
-                            <input type="email" id="idMail" maxlength="30" size="20" placeholder="Ingresá tu mail" />
+                        <div class="email">
+                            <label class="fontsize-email" for="idMail">Email: </label>
+                            <br>
+                            <input type="email"
+                            id="idMail"
+                            
+                            placeholder="Ingresá tu mail"/>
                         </div>
-                        <div class="mensaje">
+                        <br>
+                        <div class="containerMensaje">
                             <label for="idComentarios">Mensaje*: </label>
-                            <br />
-                            <textarea id="idComentarios" cols="50" rows="15" maxlength="1000"
-                                placeholder="Escriba un mensaje aqui">
+                                <br />
+                                <textarea class="containerinputcomntario" id="idComentarios" 
+                                    cols="50" 
+                                    rows="10" 
+                                    maxlength="1000"
+                                    placeholder="Escriba un mensaje aqui">
                                 </textarea>
                         </div>
-                        <div>
-                            <button type="submit" class="botonenviar">
-                                Enviar
-                            </button>
+
+                        <button type="submit" class="botonenviar">
+                            Enviar
+                        </button>
                         </div>
                     </form>
             </section>
@@ -197,10 +205,10 @@
         <footer class="section footer pinkBackground">
             <nav class="navFooter">
                 <ul class="nav">
-                    <li class="nav"><a class="navFooter" href="#Hola">Hola</a></li>
-                    <li class="nav"><a class="navFooter" href="#Conocimientos">Conocimientos</a></li>
-                    <li class="nav"><a class="navFooter" href="#Proyectos">Proyectos</a></li>
-                    <li class="nav"><a class="navFooter" href="#Contactos">Contacto</a></li>
+                    <li class="nav"><a class="navFooter" href="#Hola">HOLA</a></li>
+                    <li class="nav"><a class="navFooter" href="#Conocimientos">CONOCIMIENTOS</a></li>
+                    <li class="nav"><a class="navFooter" href="#Proyectos">PROYECTOS</a></li>
+                    <li class="nav"><a class="navFooter" href="#Contactos">CONTACTO</a></li>
                 </ul>
             </nav>
                 <ul class="ulIconos">
@@ -225,7 +233,9 @@
                         </a>
                     </li>
                 </ul>
-            Hecho con 💚 por Sofia Mendoza
+                <p class="parrafoFooter">
+                    Hecho con 💚 por Sofia Mendoza
+                </p>
         </footer>
     </main>
 </body>

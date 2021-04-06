@@ -20,15 +20,6 @@ li{
 a{
     text-decoration: none;
 }
-input {
-    background-color: #f6f7fb;
-    border-color: transparent;
-    border-radius: 25px;
-    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
-    margin: 5%;
-    padding: 3%;
-
-}
 .section {
     display: flex;
     justify-content: center;

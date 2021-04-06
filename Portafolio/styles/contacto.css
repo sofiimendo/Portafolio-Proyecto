@@ -7,58 +7,122 @@
     padding: 10%;
     width: 100%;
 }
+
 .contactameEscribime {
-    background-color:rgb(255, 246, 254);
+    background-color: rgb(255, 246, 254);
     border: 2px rgb(255, 224, 253) solid;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
 }
-.contactoForm{
+
+.contactoForm {
     width: 50%;
     border-radius: 20px;
     padding: 5%;
 }
-.contactoParrafo{
+
+.contactoParrafo {
     margin-bottom: 10%;
 }
+
 .contactactameRedes {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
 }
+
 .iconosRedes {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 0;
 }
-.iconosLi{
+
+.iconosLi {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .fontIcon {
     font-size: 30px;
     background-color: transparent;
-    border-radius:100%;
+    border-radius: 100%;
     padding: 2%;
 }
-.colorRedes{
+
+.colorRedes {
     color: #ed64bd;
     margin: 3%;
 }
-.fontIcon:hover{
-    background-color:#ed64bd;
+
+.fontIcon:hover {
+    background-color: #ed64bd;
     color: #ffc8fb;
 }
-.colorRedes:hover{
+
+.colorRedes:hover {
     color: #ffc8fb;
 }
-.iconosLi:hover .fontIcon{
-    background-color:#ed64bd;
+
+.iconosLi:hover .fontIcon {
+    background-color: #ed64bd;
     color: #ffff;
 }
-/*Estilos Escribime*/
 
+/*Estilos Escribime*/
+input {
+    margin-top: 3%;
+    padding-top: 2%;
+    display: block;
+    border-radius: 25px;
+    border: transparent;
+    box-shadow: 0 0 2px 0 #ed64bd;
+    font-size: 15px;
+    margin-left: 2%;
+    width: 100%;
+    padding: 4%;
+}
+.nombreApellido {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.nombreForm {
+    margin-right: 2%;
+    font-weight: 700;
+}
+
+.email {
+    font-weight: 700;
+    display: block;
+    padding-top: 5%;
+}
+.containerinputcomntario {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: transparent;
+    box-shadow: 0 0 2px 0 #ed64bd;
+    margin-top: 2%;
+}
+
+.botonenviar {
+    box-shadow: 0 0 15px 0 #cccccc;
+    background-color: #ed64bd;
+    color: white;
+    border-radius: 50px;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 10%;
+    font-size: 20px;
+    margin-top: 2%;
+}
