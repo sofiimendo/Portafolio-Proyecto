@@ -126,3 +126,7 @@ input {
     font-size: 20px;
     margin-top: 2%;
 }
+.botonenviar:hover{
+    background-color: #f42aad;
+    transition: 0.7s;
+}
