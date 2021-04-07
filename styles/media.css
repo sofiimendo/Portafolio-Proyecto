@@ -1,97 +1,169 @@
 @media (min-width: 200px) and (max-width: 700px) {
-    header{
+    header {
         display: none;
     }
-    p{
+    p {
         display: none;
     }
-    a{
+    a {
         font-size: 15px;
     }
-    .containerHola{
-        flex-direction:column-reverse;
+    .containerHola {
+        flex-direction: column-reverse;
     }
-    .containerImagenHola{
+    .containerImagenHola {
         width: 100%;
     }
-    .imagenHola{
+    .imagenHola {
         margin-top: 5%;
         margin-bottom: 3%;
     }
-    .textoHola{
+    .textoHola {
         width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .cards{
+    .cards {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
     }
-    .cardsContent{
+    .cardsContent {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100px;
         height: 100px;
     }
-    .titleCards{
-        display:none;
-    }
-    .fontSize{
-        font-size: 50px;
-    }
-
-    .quoteMobile{
+    .titleCards {
         display: none;
     }
-    .cardsProyect{
+    .fontSize {
+        font-size: 50px;
+    }
+    .quoteMobile {
+        display: none;
+    }
+    .cardsProyect {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 75px;
         height: 75px;
     }
-    .imgProyecctos{
+    .imgProyecctos {
         width: 2%;
     }
-    .titleProyectos{
+    .titleProyectos {
         display: none;
     }
-    .contactameEscribime{
+    .contactameEscribime {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 2%;
     }
-    .contactoParrafo{
+    .contactoParrafo {
         display: none;
     }
-    .contactoForm{
+    .contactoForm {
         width: 100%;
     }
-    .botonEnviar{
-        margin-left: 7px;
-    }
-    .fontIcon{
+    .fontIcon {
         font-size: 20px;
     }
-    .navFooter{
+    .navFooter {
         display: none;
     }
-    .sizeIcons{
+    .sizeIcons {
         font-size: 20px;
         color: #ffc8fb;
         margin-top: 15%;
         margin-right: 15%;
     }
-    .medidasIconos{
-        background-color:#ed64bd;
+    .medidasIconos {
+        background-color: #ed64bd;
     }
-    .parrafoFooter{
+    .txtFooter {
+        color: #ffc8fb;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 700px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cardsContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+    .fontSize {
+        font-size: 90px;
+    }
+    .quoteMobile {
+        display: none;
+    }
+    .cardsProyect {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+    }
+    .imgProyecctos {
+        width: 2%;
+    }
+    .titleProyectos {
+        display: none;
+    }
+    .contactameEscribime {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+    }
+    .contactoParrafo {
+        display: none;
+    }
+    .contactoForm {
+        width: 100%;
+    }
+    .fontIcon {
+        font-size: 20px;
+    }
+    .navFooter {
+        display: none;
+    }
+    .medidasIconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        padding: 10%;
+        border-radius: 100%;
+        color: #ed64bd;
+        background-color: #ffc8fb;
+    }
+    .sizeIcons {
+        font-size: 20px;
+        color: #ffc8fb;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .medidasIconos {
+        background-color: #ed64bd;
+    }
+    .txtFooter {
         color: #ffc8fb;
     }
 }
