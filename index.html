@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/proyectos.css">
     <link rel="stylesheet" href="styles/contacto.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="media.css">
     <!--Link FontAwesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
         integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous">
@@ -44,7 +45,7 @@
                     <p class="descripcion Boca">y fanática de Boca 💙💛💙</p>
                     <a class="botonLoQueHago" href="#Proyectos">Lo que hago</a>
                 </div>
-                <div class="imagenHola">
+                <div class="containerImagenHola">
                     <img class="imagenHola" src="./assets/images/imgHola.svg" alt="imagenHola">
                 </div>
             </div>
@@ -66,7 +67,7 @@
                         <p class="titleCards">CSS 3</p>
                     </div>
                     <div class="cardsContent">
-                        <i class="fontSize fab fa-sass"></i>
+                        <i class="fontSize fab widthCard fa-sass"></i>
                         <p class="titleCards">Sass</p>
                     </div>
                     <div class="cardsContent">
@@ -78,7 +79,7 @@
                         <p class="titleCards">React</p>
                     </div>
                     <div class="cardsContent">
-                        <i class="fontSize fab fa-git-alt"></i>
+                        <i class="fontSize widthCard fab fa-git-alt"></i>
                         <p class="titleCards">GIT</p>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
             <div class="containerQuote">
                 <i class="fas fa-quote-right"></i>
                 <p class="quoteText">"¿Internet? ¿Todavía anda eso por ahí?"</p>
-                <h2> Homero Simpson</h2>
+                <h2 class="quoteMobile"> Homero Simpson</h2>
             </div>
         </section>
         <!-----------------------------------Mis proyectos--------------------------------------------------------->
@@ -161,18 +162,18 @@
                     <h2>Escribime</h2>
                     <form class="contactameForm">
                         <div class="nombreApellido">
-                            <div class="nombreForm">
+                            <div class="nombreForm formMobile">
                                 <label for="idNombre">Nombre*:</label>
                                 <br>
                                 <input class="inputsize" type="text" id="idNombre" placeholder="Ingresa tu nombre">
                             </div> 
-                            <div class="nombreForm">                   
+                            <div class="nombreForm formMobile">                   
                                 <label for="idApellido">Apellido*:</label>
                                 <br>
                                 <input type="text" id="idApellido" placeholder="Ingresa tu apellido">
                             </div>
                         </div>
-                        <div class="email">
+                        <div class="email formMobile">
                             <label class="fontsize-email" for="idMail">Email: </label>
                             <br>
                             <input type="email"
@@ -184,15 +185,14 @@
                         <div class="containerMensaje">
                             <label for="idComentarios">Mensaje*: </label>
                                 <br />
-                                <textarea class="containerinputcomntario" id="idComentarios" 
-                                    cols="50" 
-                                    rows="10" 
-                                    maxlength="1000"
-                                    placeholder="Escriba un mensaje aqui">
+                                <textarea class="containerComentario" id="idComentarios" 
+                                cols="50" 
+                                rows="10" 
+                                maxlength="1000"
+                                placeholder="Escriba un mensaje aqui">
                                 </textarea>
                         </div>
-
-                        <button type="submit" class="botonenviar">
+                        <button type="submit" class="botonEnviar">
                             Enviar
                         </button>
                         </div>
@@ -202,7 +202,7 @@
             </div>
         </section>
         <!-----------------------------------Footer--------------------------------------------------------->
-        <footer class="section footer pinkBackground">
+        <footer class="footer pinkBackground">
             <nav class="navFooter">
                 <ul class="nav">
                     <li class="nav"><a class="navFooter" href="#Hola">HOLA</a></li>
@@ -233,9 +233,9 @@
                         </a>
                     </li>
                 </ul>
-                <p class="parrafoFooter">
-                    Hecho con 💚 por Sofia Mendoza
-                </p>
+                <span class="txtFooter">
+                    Hecho con 💚 por Sofia Mendoza                           
+                </span>
         </footer>
     </main>
 </body>

@@ -14,6 +14,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .contactoForm {
@@ -101,15 +102,19 @@ input {
     display: block;
     padding-top: 5%;
 }
-.containerinputcomntario {
+.containerMensaje{
+    width: 100%;
+}
+.containerComentario {
     background-color: rgb(255, 255, 255);
+    width: 95%;
     border-radius: 25px;
     border: transparent;
     box-shadow: 0 0 2px 0 #ed64bd;
     margin-top: 2%;
 }
 
-.botonenviar {
+.botonEnviar {
     box-shadow: 0 0 15px 0 #cccccc;
     background-color: #ed64bd;
     color: white;
@@ -126,7 +131,7 @@ input {
     font-size: 20px;
     margin-top: 2%;
 }
-.botonenviar:hover{
+.botonEnviar:hover{
     background-color: #f42aad;
     transition: 0.7s;
 }

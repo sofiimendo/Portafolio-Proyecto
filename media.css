@@ -1,0 +1,97 @@
+@media (min-width: 200px) and (max-width: 700px) {
+    header{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    a{
+        font-size: 15px;
+    }
+    .containerHola{
+        flex-direction:column-reverse;
+    }
+    .containerImagenHola{
+        width: 100%;
+    }
+    .imagenHola{
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .textoHola{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 5%;
+    }
+    .cardsContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+    .titleCards{
+        display:none;
+    }
+    .fontSize{
+        font-size: 50px;
+    }
+
+    .quoteMobile{
+        display: none;
+    }
+    .cardsProyect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 75px;
+    }
+    .imgProyecctos{
+        width: 2%;
+    }
+    .titleProyectos{
+        display: none;
+    }
+    .contactameEscribime{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2%;
+    }
+    .contactoParrafo{
+        display: none;
+    }
+    .contactoForm{
+        width: 100%;
+    }
+    .fontIcon{
+        font-size: 20px;
+    }
+    .navFooter{
+        display: none;
+    }
+    .sizeIcons{
+        font-size: 20px;
+        color: #ffc8fb;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+    .medidasIconos{
+        background-color:#ed64bd;
+    }
+    .parrafoFooter{
+        color: #ffc8fb;
+    }
+}

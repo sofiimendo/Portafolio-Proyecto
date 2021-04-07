@@ -11,7 +11,12 @@
     display: flex;
     font-size: 13px;
     justify-content: center;
+    margin-top: 2%;
     margin-bottom: 2%;
+}
+.navFooter:hover{
+    color: #ffc8fb;
+    transition: 0.3;
 }
 .ulIconos{
     display: flex;
@@ -32,10 +37,11 @@
 .medidasIconos:hover{
     background-color:#ed64bd;
     color: #ffff;
+    transition: 0.3;
 }
 .sizeIcons{
     font-size: 30px;
 }
-.parrafoFooter{
+.txtFooter{
     color: #ffff;
 }
