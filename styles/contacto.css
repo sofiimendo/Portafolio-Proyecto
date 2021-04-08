@@ -1,7 +1,7 @@
 /*Estilos Contactame*/
 .containerformulario {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10%;
@@ -18,9 +18,9 @@
 }
 
 .contactoForm {
-    width: 50%;
     border-radius: 20px;
     padding: 5%;
+    width: 50%;
 }
 
 .contactoParrafo {
@@ -28,10 +28,10 @@
 }
 
 .contactactameRedes {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .iconosRedes {
@@ -42,9 +42,9 @@
 }
 
 .iconosLi {
+    align-items: center;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
 }
 
 .fontIcon {
@@ -115,21 +115,21 @@ input {
 }
 
 .botonEnviar {
-    box-shadow: 0 0 15px 0 #cccccc;
-    background-color: #ed64bd;
-    color: white;
-    border-radius: 50px;
-    border-color: transparent;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: #ed64bd;
+    border-color: transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 0 #cccccc;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     width: 10%;
-    font-size: 20px;
-    margin-top: 2%;
 }
 .botonEnviar:hover{
     background-color: #f42aad;

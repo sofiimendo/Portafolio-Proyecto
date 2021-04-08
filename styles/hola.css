@@ -1,7 +1,7 @@
 .containerHola{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 5%;
     width: 100%;
 }
@@ -12,14 +12,14 @@
     width: 100%;
 }
 .textoHola{
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
     text-align:left;
-    width: 50%;
     margin: 5%;
     padding: 2%;
+    width: 50%;
 }
 .presentacion{
     color: #3d3b47;

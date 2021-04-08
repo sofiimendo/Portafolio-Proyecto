@@ -21,9 +21,9 @@ a{
     text-decoration: none;
 }
 .section {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 5%;
     text-align: center;
 }
@@ -32,16 +32,16 @@ a{
     width: 100%;
 }
 .container{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .cards{
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
 }
 .pinkBackground{
     background-color:#ed64bd;
