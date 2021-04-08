@@ -1,6 +1,6 @@
 # Portafolio-Ada🚀
 #
-Creacion del primer proyecto en Ada donde iremos linkeando los proyectos restantes que iremos haciendo a traves de nuestra experiencia en Ada.
+Creacion del primer proyecto en Ada donde iremos linkeando los proyectos restantes que haremos a traves de nuestra experiencia en Ada.
 #
 https://sofiimendo.github.io/portafolio-proyecto/
 #
