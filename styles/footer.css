@@ -1,10 +1,10 @@
 .footer{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    align-items: center;
     padding-bottom: 3%;
+    width: 100%;
 }
 .navFooter{
     align-items: center;
@@ -20,20 +20,20 @@
     transition: 0.3;
 }
 .ulIconos{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 2%;
 }
 .medidasIconos{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 15%;
-    padding: 10%;
+    background-color: #ffc8fb;
     border-radius: 100%;
     color: #ed64bd;
-    background-color: #ffc8fb;
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+    padding: 10%;
 }
 .medidasIconos:hover{
     background-color:#ed64bd;

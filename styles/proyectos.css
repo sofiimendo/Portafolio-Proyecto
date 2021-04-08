@@ -2,26 +2,26 @@
     width: 100%;
 }
 .titleProyectos{
+    color: #3d3b47;
     font-size: 1em;
     font-weight: 700;
-    color: #3d3b47;
     margin-top: 5%;
     padding: 1%;
 }
 .proyectos{
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-content: center;
 }
 .cardsProyect{
     background-color: #fff;
     border: 1px solid #dddfe5;
     border-radius: 8px;
     box-shadow: 0 0 2px 0 #ed64bd;
-    width: 25%;
     margin: 4%;
     padding: 2%;
+    width: 25%;
 }
 .cardsProyect:hover{
     border: 1px solid #ed64bd;
