@@ -4,14 +4,15 @@
     box-shadow: 0 0 2px 0 #ed64bd;
     border-radius: 8px;
     width: 30%;
-    height: 20%;
-    margin: 1%;
+    margin: 1.5%;
     margin-top: 5%;
     padding: 5%;
 }
 .cardsContent:hover{
     border: 1px solid #ed64bd;
     box-shadow: 0 0 10px 0 #ed64bd;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 .titleCards{
     font-size: 20px;

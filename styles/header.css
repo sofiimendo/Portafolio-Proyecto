@@ -1,9 +1,9 @@
 .containerNav {
-    background-color: #fff;
+    background:linear-gradient(60deg,rgb(255, 224, 253),#ffff);;
     box-shadow: 0 0 29px 0 #ed64bd;
     padding: 25px;
-    opacity: 0.8;
     position: fixed;
+    opacity: 0.9;
     width: 100%;
     z-index: 9999;
 }
