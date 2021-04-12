@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 700px) {
     header {
         display: none;
     }
@@ -53,22 +53,27 @@
     .cardsProyect {
         align-items: center;
         display: flex;
-        height: 75px;
         justify-content: center;
-        width: 75px;
+    }
+    .titleProyectos{
+        margin-bottom: 30px;
     }
     .imgProyecctos {
         width: 2%;
-    }
-    .titleProyectos {
-        display: none;
     }
     .contactameEscribime {
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
         margin: 2%;
     }
+    .nombreApellido {
+        flex-direction: column;
+}
+input:focus{
+    border: #ed64bd;
+}
     .contactoParrafo {
         display: none;
     }
@@ -76,7 +81,7 @@
         width: 100%;
     }
     .fontIcon {
-        font-size: 20px;
+        font-size: 30px;
     }
     .navFooter {
         display: none;
@@ -95,7 +100,10 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 700px) {
+@media (min-width: 480px) and (max-width: 800px) {
+    input:focus{
+        border: #ed64bd;
+    }
     .cards {
         align-items: center;
         display: flex;
@@ -119,15 +127,13 @@
     .cardsProyect {
         align-items: center;
         display: flex;
-        height: 90px;
         justify-content: center;
-        width: 90px;
+    }
+    .titleCards {
+        display: none;
     }
     .imgProyecctos {
         width: 2%;
-    }
-    .titleProyectos {
-        display: none;
     }
     .contactameEscribime {
         align-items: center;
@@ -148,14 +154,15 @@
         display: none;
     }
     .medidasIconos {
-        align-items: center;
         background-color: #ffc8fb;
-        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
         color: #ed64bd;
         display: flex;
+        align-items: center;
         justify-content: center;
-        margin: 5%;
-        padding: 10%;
+        transition: 0.3s;
     }
     .sizeIcons {
         color: #ffc8fb;
