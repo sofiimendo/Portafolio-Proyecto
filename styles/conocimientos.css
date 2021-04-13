@@ -18,6 +18,9 @@
     font-size: 20px;
     font-weight: 900;
 }
+.titleCards:hover{
+    color: #ed64bd;;
+}
 .fontSize{
     font-size: 100px;
     margin-top: 3%;
