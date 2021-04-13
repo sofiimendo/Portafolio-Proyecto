@@ -2,8 +2,11 @@
     header {
         display: none;
     }
+    h2{
+        font-size: 30px;
+    }
     a {
-        font-size: 15px;
+        display: none;
     }
     .pmobile {
         display: none;
@@ -70,6 +73,15 @@
     }
     .nombreApellido {
         flex-direction: column;
+}
+.iconosRedes{
+    display: flex;
+    flex-direction:row;
+}
+.fontIcon{
+    padding: 3px;
+    margin: 5px;
+    margin-left: 10px;
 }
 input:focus{
     border: #ed64bd;

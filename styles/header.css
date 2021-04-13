@@ -3,7 +3,6 @@
     box-shadow: 0 0 29px 0 #ed64bd;
     padding: 25px;
     position: fixed;
-    opacity: 0.9;
     width: 100%;
     z-index: 9999;
 }
