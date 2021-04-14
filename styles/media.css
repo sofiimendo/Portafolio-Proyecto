@@ -114,6 +114,19 @@ input:focus{
     input:focus{
         border: #ed64bd;
     }
+    .containerHola {
+        flex-direction: column-reverse;
+    }
+    .imagenHola {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .textoHola {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
     .cards {
         align-items: center;
         display: flex;
@@ -149,6 +162,9 @@ input:focus{
     .contactoForm {
         width: 100%;
     }
+    .nombreApellido {
+        flex-direction: column;
+}
     .fontIcon {
         font-size: 20px;
     }
