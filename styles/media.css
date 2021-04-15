@@ -88,10 +88,15 @@ input:focus{
         width: 100%;
     }
     .fontIcon {
-        font-size: 30px;
+        font-size: 35px;
+        justify-content: center;
+        align-items: center;
     }
     .navFooter {
         display: none;
+    }
+    .ulIconos{
+        margin-right: 10%;
     }
     .sizeIcons {
         color: #ffc8fb;
@@ -107,7 +112,7 @@ input:focus{
     }
 }
 
-@media (min-width: 710px) and (max-width: 800px) {
+@media (min-width: 490px) and (max-width: 800px) {
     header{
         display: none;
     }
