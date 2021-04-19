@@ -16,7 +16,6 @@
     justify-content: flex-start;
 }
 .cardsProyect{
-    background-color: #fff;
     border: 1px solid #dddfe5;
     border-radius: 8px;
     box-shadow: 0 0 2px 0 #ed64bd;
@@ -28,4 +27,5 @@
 .cardsProyect:hover{
     border: 1px solid #ed64bd;
     box-shadow: 0 0 10px 0 #ed64bd;
+    transition:0.3s
 }
