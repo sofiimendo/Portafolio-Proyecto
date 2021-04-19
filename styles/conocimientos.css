@@ -11,15 +11,13 @@
 .cardsContent:hover{
     border: 1px solid #ed64bd;
     box-shadow: 0 0 10px 0 #ed64bd;
+    color: #ed64bd;
     opacity: 0.6;
     transition: 0.3s;
 }
 .titleCards{
     font-size: 20px;
     font-weight: 900;
-}
-.titleCards:hover{
-    color: #ed64bd;;
 }
 .fontSize{
     font-size: 100px;
