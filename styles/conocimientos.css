@@ -2,11 +2,12 @@
     background-color: #fff;
     border: 1px transparent #dddfe5;
     box-shadow: 0 0 2px 0 #ed64bd;
+    flex-direction: column;
     border-radius: 8px;
-    width: 30%;
     margin: 1.5%;
     margin-top: 5%;
     padding: 5%;
+    width: 30%;
 }
 .cardsContent:hover{
     border: 1px solid #ed64bd;
