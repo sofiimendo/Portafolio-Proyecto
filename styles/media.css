@@ -2,31 +2,39 @@
     header {
         display: none;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
     }
+
     a {
         display: none;
     }
+
     .pmobile {
         display: none;
     }
+
     .containerHola {
         flex-direction: column-reverse;
     }
+
     .containerImagenHola {
         width: 100%;
     }
+
     .imagenHola {
         margin-top: 5%;
         margin-bottom: 3%;
     }
+
     .textoHola {
         align-items: center;
         justify-content: center;
         text-align: center;
         width: 100%;
     }
+
     .cardsContent {
         align-items: center;
         display: flex;
@@ -34,31 +42,39 @@
         justify-content: center;
         width: 100px;
     }
+
     .titleCards {
         display: none;
     }
-    .conocimientos{
+
+    .conocimientos {
         width: 120px;
     }
-    .fa-quote-right{
+
+    .fa-quote-right {
         display: none;
     }
-    .quoteMobile{
+
+    .quoteMobile {
         font-size: 17px;
     }
+
     .fontSize {
         font-size: 70px;
         align-items: center;
     }
+
     .cardsProyect.conocimientos {
         justify-content: center;
         align-items: center;
     }
-    .proyects{
+
+    .proyects {
         justify-content: center;
         height: 150px;
         width: 300px;
     }
+
     .contactameEscribime {
         align-items: center;
         flex-direction: column;
@@ -66,80 +82,100 @@
         width: 300px;
         margin: 2%;
     }
+
     .nombreApellido {
         flex-direction: column;
-}
-.iconosRedes{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-}
-.fontIcon{
-    padding: 3px;
-    margin: 5px;
-    margin-left: 10px;
-}
-input{
-    margin-bottom: 2%;
-}
-input:focus{
-    border: #ed64bd;
-}
+    }
+
+    .iconosRedes {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+    }
+
+    .fontIcon {
+        padding: 3px;
+        margin: 5px;
+        margin-left: 10px;
+    }
+
+    input {
+        margin-bottom: 2%;
+    }
+
+    input:focus {
+        border: #ed64bd;
+    }
+
     .contactoParrafo {
         display: none;
     }
+
     .contactoForm {
         width: 100%;
     }
+
     .fontIcon {
         font-size: 35px;
         justify-content: center;
         align-items: center;
     }
-    .ulIconos{
+
+    .ulIconos {
         display: none;
     }
+
     .txtFooter {
         color: #ffc8fb;
     }
-    .navFooter{
-        display:none;
+
+    .navFooter {
+        display: none;
     }
 }
 
 @media (min-width: 400px) and (max-width: 800px) {
-    header{
+    header {
         display: none;
     }
-    a{
+
+    a {
         display: none;
     }
-    input{
+
+    input {
         margin-bottom: 2%;
     }
-    input:focus{
+
+    input:focus {
         border: #ed64bd;
     }
+
     .containerHola {
         flex-direction: column-reverse;
     }
+
     .imagenHola {
         margin-top: 5%;
         margin-bottom: 3%;
     }
+
     .textoHola {
         align-items: center;
         justify-content: center;
         text-align: center;
         width: 100%;
     }
+
     .cards {
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .cardsProyect.conocimientos {
         justify-content: center;
         align-items: center;
@@ -147,57 +183,71 @@ input:focus{
         height: 150px;
         margin: 7px;
     }
-    .proyectos{
+
+    .proyectos {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .fontSize {
         font-size: 90px;
     }
+
     .quoteMobile {
         font-size: 17px;
     }
+
     .titleCards {
         display: none;
     }
+
     .cardsProyect {
         display: flex;
         height: 200px;
         width: 400px;
     }
+
     .contactameEscribime {
         align-items: center;
         flex-direction: column;
         justify-content: center;
         width: 500px;
     }
-    .iconosRedes{
+
+    .iconosRedes {
+        background-color: transparent;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         margin: 2%;
     }
-    .fontIcon{
+
+    .fontIcon {
         font-size: 40px;
         padding: 3px;
         margin: 15px;
-        
+
     }
+
     .contactoParrafo {
         display: none;
     }
+
     .contactoForm {
         width: 100%;
     }
+
     .nombreApellido {
         flex-direction: column;
-}
-    .ulIconos{
+    }
+
+    .ulIconos {
         display: none;
-}
-    .navFooter{
+    }
+
+    .navFooter {
         display: none;
-}
+    }
 }
