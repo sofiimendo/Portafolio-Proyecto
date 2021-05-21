@@ -43,6 +43,20 @@ a{
     flex-wrap: wrap;
     justify-content: center;
 }
+.cardsProyect{
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 0 #ed64bd;
+    flex-direction: column;
+    margin: 4%;
+    padding: 2%;
+    width: 25%;
+}
+.cardsProyect:hover{
+    border: 1px solid #ed64bd;
+    box-shadow: 0 0 10px 0 #ed64bd;
+    transition:0.3s
+}
 .pinkBackground{
     background-color:#ed64bd;
 }
