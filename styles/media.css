@@ -109,7 +109,7 @@ input:focus{
     }
 }
 
-@media (min-width: 490px) and (max-width: 800px) {
+@media (min-width: 400px) and (max-width: 800px) {
     header{
         display: none;
     }
@@ -145,7 +145,7 @@ input:focus{
         align-items: center;
         width: 200px;
         height: 200px;
-        margin: 10px;
+        margin: 5px;
     }
     .proyectos{
         display: flex;
@@ -181,7 +181,7 @@ input:focus{
         margin: 2%;
     }
     .fontIcon{
-        font-size: 50px;
+        font-size: 40px;
         padding: 3px;
         margin: 15px;
         
