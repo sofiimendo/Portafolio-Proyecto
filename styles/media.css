@@ -143,16 +143,15 @@ input:focus{
     .cardsProyect.conocimientos {
         justify-content: center;
         align-items: center;
-        width: 200px;
-        height: 200px;
-        margin: 5px;
+        width: 150px;
+        height: 150px;
+        margin: 7px;
     }
     .proyectos{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
     .fontSize {
         font-size: 90px;
     }
