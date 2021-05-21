@@ -27,13 +27,6 @@
         text-align: center;
         width: 100%;
     }
-    .cards {
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
     .cardsContent {
         align-items: center;
         display: flex;
@@ -44,6 +37,9 @@
     .titleCards {
         display: none;
     }
+    .conocimientos{
+        width: 120px;
+    }
     .fa-quote-right{
         display: none;
     }
@@ -51,11 +47,15 @@
         font-size: 17px;
     }
     .fontSize {
-        font-size: 50px;
+        font-size: 70px;
+        align-items: center;
     }
-    .cardsProyect {
-        display: flex;
-        flex-direction: column;
+    .cardsProyect.conocimientos {
+        justify-content: center;
+        align-items: center;
+    }
+    .proyects{
+        justify-content: center;
         height: 150px;
         width: 300px;
     }
@@ -137,18 +137,22 @@ input:focus{
     }
     .cards {
         align-items: center;
-        display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
     }
-    .cardsContent {
-        align-items: center;
-        display: flex;
-        height: 200px;
+    .cardsProyect.conocimientos {
         justify-content: center;
+        align-items: center;
         width: 200px;
+        height: 200px;
+        margin: 10px;
     }
+    .proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .fontSize {
         font-size: 90px;
     }
@@ -160,7 +164,6 @@ input:focus{
     }
     .cardsProyect {
         display: flex;
-        margin-left: 15%;
         height: 200px;
         width: 400px;
     }

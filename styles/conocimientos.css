@@ -1,17 +1,8 @@
-.cardsContent{
-    background-color: #fff;
-    border: 1px transparent #dddfe5;
-    box-shadow: 0 0 2px 0 #ed64bd;
-    border-radius: 8px;
-    width: 30%;
-    margin: 1.5%;
-    margin-top: 5%;
-    padding: 5%;
+.conocimientos{
+    background-color: #ffffff;
 }
-.cardsContent:hover{
-    border: 1px solid #ed64bd;
-    box-shadow: 0 0 10px 0 #ed64bd;
-    color: #ed64bd;
+.conocimientos:hover{
+    color: #c69;
     opacity: 0.6;
     transition: 0.3s;
 }

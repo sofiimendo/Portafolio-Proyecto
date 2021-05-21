@@ -1,6 +1,9 @@
 .imgProyectos{
-    width: 80%;
-    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
 }
 .titleProyectos{
     color: #3d3b47;
@@ -14,18 +17,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
-.cardsProyect{
-    border: 1px solid #dddfe5;
-    border-radius: 8px;
-    box-shadow: 0 0 2px 0 #ed64bd;
-    flex-direction: column;
-    margin: 4%;
-    padding: 2%;
-    width: 25%;
-}
-.cardsProyect:hover{
-    border: 1px solid #ed64bd;
-    box-shadow: 0 0 10px 0 #ed64bd;
-    transition:0.3s
 }
