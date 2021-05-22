@@ -119,6 +119,7 @@
     }
 
     .fontIcon {
+        background-color: transparent;
         font-size: 35px;
         justify-content: center;
         align-items: center;
@@ -225,6 +226,7 @@
     }
 
     .fontIcon {
+        background-color: transparent;
         font-size: 40px;
         padding: 3px;
         margin: 15px;
