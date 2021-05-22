@@ -108,8 +108,13 @@ input:focus{
     display: block;
     padding-top: 5%;
 }
+.mensaje-bold{
+    font-weight: 700;
+    padding-top: 5%;
+}
 .containerMensaje{
     width: 100%;
+    margin: 2%;
 }
 .containerComentario {
     background-color: rgb(255, 255, 255);

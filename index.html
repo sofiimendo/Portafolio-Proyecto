@@ -86,11 +86,11 @@
         </section>
         <!-----------------------------------Quote--------------------------------------------------------->
         <section class="section pinkBackground">
-            <blockquote class="containerQuote">
+            <div class="containerQuote">
                 <i class="fas fa-quote-right"></i>
                 <p class="quoteText">"¿Internet? ¿Todavía anda eso por ahí?"</p>
                 <h2 class="quoteMobile"> Homero Simpson</h2>
-            </blockquote>
+            </div>
         </section>
         <!-----------------------------------Mis proyectos--------------------------------------------------------->
         <section class="section" id="Proyectos">
@@ -115,7 +115,8 @@
                         <h4 class="titleProyectos">Controlador de Gastos</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/administradorReuniones.svg" alt="">
+                        <img class="imgProyectos" src="./assets/images/administradorReuniones.svg"
+                            alt="">
                         <h4 class="titleProyectos">Administrador de Reuniones</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
@@ -138,62 +139,58 @@
                         contactarme:
                     </p>
                     <div class="contactactameRedes">
-                        <section aria-label="Links de redes sociales">
-                            <ul class="iconosRedes">
-                                <li class="iconosLi">
-                                    <i class="fontIcon colorRedes fab fa-twitter"></i>
-                                    <a href="https://twitter.com/sofiimendo" target="_blank" class="colorRedes"
-                                        aria-label="Twitter">@Sofiimendo</a>
-                                </li>
-                                <li class="iconosLi">
-                                    <i class="fontIcon colorRedes fab fa-github-alt"></i>
-                                    <a href="https://github.com/sofiimendo" target="_blank" class="colorRedes"
-                                        aria-label="Github">SofiiMendo</a>
-                                </li>
-                                <li class="iconosLi">
-                                    <i class="fontIcon colorRedes fab fa-linkedin-in"></i>
-                                    <a href="https://www.linkedin.com/in/sofia-macarena-mendoza/" target="_blank"
-                                        class="colorRedes" aria-label="Linkedin">SofiaMendoza</a>
-                                </li>
-                                <li class="iconosLi">
-                                    <i class="fontIcon colorRedes far fa-envelope"></i>
-                                    <a href="mailto:sofimmendoza@gmail.com" target="_blank" class="colorRedes"
-                                        aria-label="Mail">sofimmendoza@gmail.com</a>
-                                </li>
-                            </ul>
-                        </section>
+                        <ul class="iconosRedes">
+                            <li class="iconosLi">
+                                <i class="fontIcon colorRedes fab fa-twitter"></i>
+                                <a href="https://twitter.com/sofiimendo" target="_blank"
+                                    class="colorRedes">@Sofiimendo</a>
+                            </li>
+                            <li class="iconosLi">
+                                <i class="fontIcon colorRedes fab fa-github-alt"></i>
+                                <a href="https://github.com/sofiimendo" target="_blank"
+                                    class="colorRedes">SofiiMendo</a>
+                            </li>
+                            <li class="iconosLi">
+                                <i class="fontIcon colorRedes fab fa-linkedin-in"></i>
+                                <a href="https://www.linkedin.com/in/sofia-macarena-mendoza/" target="_blank"
+                                    class="colorRedes">SofiaMendoza</a>
+                            </li>
+                            <li class="iconosLi">
+                                <i class="fontIcon colorRedes far fa-envelope"></i>
+                                <a href="mailto:sofimmendoza@gmail.com" target="_blank"
+                                    class="colorRedes">sofimmendoza@gmail.com</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <section class="contactoForm">
+                <div class="contactoForm">
                     <h2>Escribime</h2>
                     <form class="contactameForm">
                         <div class="nombreApellido">
                             <div class="nombreForm formMobile">
-                                <label for="nombre">Nombre *:</label>
-                                <input class="inputsize" type="text" id="nombreForm" placeholder="Ingresa tu nombre"
-                                    aria-label="Nombre" required>
+                                <label for="Nombre">Nombre *:</label>
+                                <input class="inputsize" type="text" id="nombre" placeholder="Ingresa tu nombre" aria-label="nombre" required>
                             </div>
                             <div class="nombreForm formMobile">
-                                <label for="apellido">Apellido *:</label>
-                                <input type="text" id="apellidoForm" placeholder="Ingresa tu apellido"
-                                    aria-label="Apellido" required>
+                                <label for="Apellido">Apellido *:</label>
+                                <input type="text" id="apellido" placeholder="Ingresa tu apellido" aria-label="apellido" required>
                             </div>
                         </div>
                         <div class="email formMobile">
-                            <label class="fontsize-email" for="email">Email *: </label>
-                            <input type="email" id="emaill" placeholder="Ingresá tu mail" aria-label="Email" required>
+                            <label class="fontsize-email" for="mail">Email *: </label>
+                            <input type="email" id="mail" placeholder="Ingresá tu mail" aria-label="mail" required>
                         </div>
-                        <br>
                         <div class="containerMensaje">
-                            <label for="mensaje">Mensaje *: </label>
-                            <textarea class="containerComentario" id="mensajeForm" cols="50" rows="10" maxlength="1000"
-                                placeholder="Escriba un mensaje aqui" aria-label="Escribi tu mensaje" required></textarea>
+                            <label class="mensaje-bold" for="Mensaje">Mensaje *: </label>
+                            <textarea class="containerComentario" id="idComentarios" cols="30" rows="10"
+                                maxlength="100" placeholder="Escriba un mensaje aqui" aria-label="escribi tu mensaje" required> 
+                                </textarea>
                         </div>
                         <button type="submit" class="botonEnviar">
                             Enviar
                         </button>
-                    </form>
-                </section>
+                </div>
+                </form>
             </section>
             </div>
         </section>
