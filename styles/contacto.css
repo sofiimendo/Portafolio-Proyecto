@@ -92,9 +92,15 @@ input {
 input:focus{
     border: #ed64bd;
 }
+textarea{
+    width: 100%;
+    border-radius: 25px;
+}
+textarea:focus{
+    border: #ed64bd;
+}
 .nombreApellido {
     display: flex;
-    justify-content: space-between;
     text-align: left;
 }
 
