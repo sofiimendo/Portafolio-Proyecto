@@ -99,32 +99,32 @@
                 <p class="pmobile">Aca te muestro los proyectos que fuimos realizando a lo largo de la cursada:</p>
                 <div class="proyectos">
                     <a href="#Hola" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/imgHola.svg" alt="portfolio">
+                        <img class="imgProyectos" src="./assets/images/imgHola.svg" alt="">
                         <h4 class="titleProyectos">Portfolio</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/creadorMemes.svg" alt="creadorMemes">
+                        <img class="imgProyectos" src="./assets/images/creadorMemes.svg" alt="">
                         <h4 class="titleProyectos">Generador de Memes</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/match.svg" alt="Match">
+                        <img class="imgProyectos" src="./assets/images/match.svg" alt="">
                         <h4 class="titleProyectos">Match 3</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/controladorGastos.svg" alt="ControladorGastos">
+                        <img class="imgProyectos" src="./assets/images/controladorGastos.svg" alt="">
                         <h4 class="titleProyectos">Controlador de Gastos</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
                         <img class="imgProyectos" src="./assets/images/administradorReuniones.svg"
-                            alt="administradorReuniones">
+                            alt="">
                         <h4 class="titleProyectos">Administrador de Reuniones</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/todoApp.svg" alt="todoApp">
+                        <img class="imgProyectos" src="./assets/images/todoApp.svg" alt="">
                         <h4 class="titleProyectos">Todo App</h3>
                     </a>
                     <a href="#" class="cards cardsProyect proyects">
-                        <img class="imgProyectos" src="./assets/images/movieSearch.svg" alt="movieSearch">
+                        <img class="imgProyectos" src="./assets/images/movieSearch.svg" alt="">
                         <h4 class="titleProyectos">Buscador de peliculas</h3>
                     </a>
                 </div>
@@ -168,27 +168,22 @@
                     <form class="contactameForm">
                         <div class="nombreApellido">
                             <div class="nombreForm formMobile">
-                                <label for="idNombre">Nombre*:</label>
-                                <br>
-                                <input class="inputsize" type="text" id="idNombre" placeholder="Ingresa tu nombre">
+                                <label for="Nombre">Nombre *:</label>
+                                <input class="inputsize" type="text" id="nombre" placeholder="Ingresa tu nombre" aria-label="nombre" required>
                             </div>
                             <div class="nombreForm formMobile">
-                                <label for="idApellido">Apellido*:</label>
-                                <br>
-                                <input type="text" id="idApellido" placeholder="Ingresa tu apellido">
+                                <label for="Apellido">Apellido *:</label>
+                                <input type="text" id="apellido" placeholder="Ingresa tu apellido" aria-label="apellido" required>
                             </div>
                         </div>
                         <div class="email formMobile">
-                            <label class="fontsize-email" for="idMail">Email: </label>
-                            <br>
-                            <input type="email" id="idMail" placeholder="Ingresá tu mail" />
+                            <label class="fontsize-email" for="mail">Email *: </label>
+                            <input type="email" id="mail" placeholder="Ingresá tu mail" aria-label="mail" required>
                         </div>
-                        <br>
                         <div class="containerMensaje">
-                            <label for="idComentarios">Mensaje*: </label>
-                            <br />
-                            <textarea class="containerComentario" id="idComentarios" cols="50" rows="10"
-                                maxlength="1000" placeholder="Escriba un mensaje aqui">
+                            <label class="mensaje-bold" for="Mensaje">Mensaje *: </label>
+                            <textarea class="containerComentario" id="idComentarios" cols="30" rows="10"
+                                maxlength="100" placeholder="Escriba un mensaje aqui" aria-label="escribi tu mensaje" required> 
                                 </textarea>
                         </div>
                         <button type="submit" class="botonEnviar">
@@ -197,7 +192,6 @@
                 </div>
                 </form>
             </section>
-
             </div>
         </section>
         <!-----------------------------------Footer--------------------------------------------------------->
