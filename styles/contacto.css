@@ -66,13 +66,14 @@
     color: #ffc8fb;
 }
 
-.colorRedes:hover {
+.iconosLi:hover .colorRedes{
+    box-shadow: 0 0 0 0 #ed64bd;
     color: #ffc8fb;
 }
 
 .iconosLi:hover .fontIcon {
-    background-color: #ed64bd;
-    color: #ffff;
+    box-shadow: 0 0 2px 0 #ed64bd;
+    color: #ffc8fb;
 }
 
 /*Estilos Escribime*/
